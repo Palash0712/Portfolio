@@ -1,6 +1,6 @@
 body{
   background-color: #c6ebc9;
-  margin: 0;
+  
 }
 
 .top-container{
@@ -164,10 +164,8 @@ hr{
 .box2{
   position: relative;
   margin: 75px auto;
-
   width: 550px;
   height: 500px;
-  align-items: center;
   border-radius:20px;
   background-color: beige;
   box-shadow: 2px 4px red;
@@ -186,12 +184,13 @@ hr{
   top: 80px;
 }
 
-.box2 .skills p{
+.box2 p{
   color: brown;
   font-size: 25px;
-  display: inline-block;
-  padding: 3px;
+  padding: 4px;
+  position: relative;
 }
+
 
 
 .bottom-container img{
@@ -200,16 +199,25 @@ hr{
 }
 
 
-.bottom-container ul{
+.bottom-container footer{
   background-color: wheat;
-  text-align: center;
+  
   border-top: 1px solid;
   border-color: brown;
+  margin: 0;
 
 }
 
-.bottom-container li{
-  float: left;
-  padding-right:100px;
-  margin-left: 30px;
+.bottom-container{
+  position: relative;
+  margin: 0;
+  text-align: center;
+  
 }
+
+.bottom-container .footer{
+  background-color: wheat;
+  position: relative;
+ 
+}
+
